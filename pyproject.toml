@@ -1,0 +1,15 @@
+[project]
+name = "general_framework_for_portfolio"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "piero gerbino", email = "piero_gerbino@hotmail.com"},
+]
+dependencies = []
+requires-python = ">=3.11"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+package-type = "application"
