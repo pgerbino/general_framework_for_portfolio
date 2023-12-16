@@ -5,7 +5,9 @@ description = "Default template for PDM package"
 authors = [
     {name = "piero gerbino", email = "piero_gerbino@hotmail.com"},
 ]
-dependencies = []
+dependencies = [
+    "numpy>=1.26.2",
+]
 requires-python = ">=3.11"
 readme = "README.md"
 license = {text = "MIT"}
@@ -13,3 +15,8 @@ license = {text = "MIT"}
 
 [tool.pdm]
 package-type = "application"
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "black>=23.12.0",
+]
